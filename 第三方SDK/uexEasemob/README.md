@@ -191,6 +191,38 @@ var param = {
 	displayName:,//对方接收时显示的文件名（仅iOS需要）
 	ext:,//扩展属性（可选参数，String)
 }
+
+>###sendPicture(param)//发送图片
+var param = {
+
+	username:,//单聊时聊天人的userid或者群聊时groupid
+	chatType:,//0-单聊，1-群聊
+	filePath:,//图片文件路径
+	displayName:,//对方接收时显示的文件名（仅iOS需要）
+	ext:,//扩展属性（可选参数，String)
+}
+
+>###sendLocationMsg(param)//发送地理位置信息
+var param = {
+
+	username:,//单聊时聊天人的userid或者群聊时groupid
+	chatType:,//0-单聊，1-群聊
+	locationAddress:,//图片文件路径
+	latitude:,
+	longitude:,
+	ext:,//扩展属性（可选参数，String)
+
+}
+>###sendVoice(param)//发送语音
+var param = {
+	
+	username:,//单聊时聊天人的userid或者群聊时groupid
+	chatType:,//0-单聊，1-群聊
+	filePath:,//语音文件路径
+	length:,//长度(Android必选，iOS可选)
+	displayName：//对方接收时显示的文件名（仅iOS需要）
+	ext:,//扩展属性（可选参数，String)
+}
 >###sendVideo(param) 发送视频
 
 var param = {
