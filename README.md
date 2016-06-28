@@ -1,4 +1,4 @@
 appcan-docs
 ===========
 
-AppCan文档中心
+旧AppCan文档中心，请参考https://github.com/AppCanOpenSource/appcan-docs-v2
